@@ -4,7 +4,7 @@ const lastNameInput = document.querySelector("#last-name-input");
 const emailInput = document.querySelector("#email-input");
 const passwordInput = document.querySelector("#password-input");
 
-//simple email validation
+//simple email validation.
 function validateEmail(email) {
   var atPos = email.indexOf("@");
   var dotPos = email.lastIndexOf(".");
